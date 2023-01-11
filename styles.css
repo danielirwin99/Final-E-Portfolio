@@ -381,7 +381,7 @@ header {
 }
 
 .modal__overlay--loading {
-  background-color: blue;
+  background-color: #242424;
   font-size: 88px;
 }
 
@@ -392,6 +392,10 @@ header {
   text-align: center;
   padding: 28px;
   line-height: 1.75;
+}
+
+.modal__overlay--visible {
+  z-index: 1;
 }
 
 .fa-spinner {

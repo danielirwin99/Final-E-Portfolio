@@ -566,24 +566,27 @@ PROJECTS
   transition: opacity 300ms, transform 450ms ease;
   color: white;
   max-width: 550px;
+  text-align: center;
 }
 
 .project__description--title {
-  font-size: 40px;
+  font-size: 44px;
 }
 
 .project__description--link {
   color: white;
-  font-size: 20px;
+  font-size: 24px;
   margin-right: 16px;
 }
 
 .project__description--para {
   margin: 16px 0;
+  font-size: 20px;
 }
 
 .project__description--sub-title {
   margin-top: 12px;
+  color: #f06449;
 }
 
 /* 

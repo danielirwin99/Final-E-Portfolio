@@ -36,13 +36,13 @@
         </figure>
         <ul class="nav__link--list">
           <li class="nav__link">
-            <a
+            <a onclick="toggleModal()"
               href="#"
               class="nav__link--anchor link__hover-effect link__hover-effect--black"
               >About</a
             >
           </li>
-          <li class="nav__link" >
+          <li class="nav__link">
             <a
               href="#projects"
               class="nav__link--anchor link__hover-effect link__hover-effect--black"
@@ -98,9 +98,11 @@
           ></a>
         </div>
       </header>
-      <button class="mail__btn click" onclick="toggleModal()">
-        <i class="fa-solid fa-envelope"></i>
-      </button>
+      <a href="#">
+        <button class="mail__btn click" onclick="toggleModal()">
+          <i class="fa-solid fa-envelope"></i>
+        </button>
+      </a>
       <a href="#projects" class="scroll">
         <div class="scroll__icon click"></div>
       </a>
@@ -190,15 +192,15 @@
         </div>
       </div>
     </section>
-    <img src="/assets/semi circle.svg" class="shape shape--0" >
-    <img src="/assets/circle.svg" class="shape shape--1" >
-    <img src="/assets/squiggly.svg" class="shape shape--2" >
-    <img src="/assets/circle.svg" class="shape shape--3" >
-    <img src="/assets/triangle.svg" class="shape shape--4" >
-    <img src="/assets/circle.svg" class="shape shape--5" >
-    <img src="/assets/squiggly.svg" class="shape shape--6" >
-    <img src="/assets/circle.svg" class="shape shape--7" >
-    <img src="/assets/semi circle.svg" class="shape shape--8" >
+    <img src="/assets/semi circle.svg" class="shape shape--0" />
+    <img src="/assets/circle.svg" class="shape shape--1" />
+    <img src="/assets/squiggly.svg" class="shape shape--2" />
+    <img src="/assets/circle.svg" class="shape shape--3" />
+    <img src="/assets/triangle.svg" class="shape shape--4" />
+    <img src="/assets/circle.svg" class="shape shape--5" />
+    <img src="/assets/squiggly.svg" class="shape shape--6" />
+    <img src="/assets/circle.svg" class="shape shape--7" />
+    <img src="/assets/semi circle.svg" class="shape shape--8" />
     <section id="projects">
       <div class="container">
         <div class="row">
@@ -321,22 +323,23 @@
           <div class="footer__social--list">
             <a
               class="footer__social--link link__hover-effect link__hover-effect--white"
-              href=""
+              href="https://github.com/danielirwin99" target="_blank"
               >GitHub</a
             >
             <a
               class="footer__social--link link__hover-effect link__hover-effect--white"
-              href=""
+              href="https://www.linkedin.com/in/daniel-irwin-b191521ba/" target="_blank"
               >Linkedin</a
             >
             <a
+              onclick="toggleModal()"
               class="footer__social--link link__hover-effect link__hover-effect--white"
-              href=""
+              href="#" target="_blank"
               >Contact</a
             >
             <a
               class="footer__social--link link__hover-effect link__hover-effect--white"
-              href=""
+              href="./assets/Daniel_Irwin_Resume.docx" target="_blank"
               >Resume</a
             >
           </div>

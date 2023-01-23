@@ -135,9 +135,9 @@ p {
   background-color: #f06469;
   color: white;
   padding: 6px;
-  width: 36px;
-  height: 36px;
-  font-size: 18px;
+  width: 50px;
+  height: 50px;
+  font-size: 24px;
   margin-right: 12px;
   display: flex;
   align-items: center;
@@ -192,7 +192,23 @@ header {
   opacity: 1;
   visibility: visible;
   transition: all 600ms 700ms;
+ 
 }
+
+header {
+  flex: 1;
+  animation: fade-in 1000ms 800ms backwards;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 
 .modal--open nav,
 .modal--open .scroll,
@@ -229,12 +245,10 @@ header {
 }
 
 .dark-theme .mail__btn,
-.dark-theme .link__hover-effect--black:after ,
+.dark-theme .link__hover-effect--black:after,
 .dark-theme .scroll__icon:after {
   background-color: white;
 }
-
-
 
 /* 
 
@@ -257,22 +271,22 @@ header {
 }
 
 .title {
-  font-size: 120px;
+  font-size: 140px;
   margin-bottom: 12px;
   text-align: left;
   line-height: 1;
 }
 
 .header__para {
-  font-size: 24px;
+  font-size: 28px;
   line-height: 2;
-  max-width: 700px;
+  max-width: 800px;
 }
 
 .mail__btn {
-  width: 70px;
-  height: 70px;
-  font-size: 32px;
+  width: 100px;
+  height: 100px;
+  font-size: 40px;
   border-radius: 50%;
   border: none;
   background-color: #242424;
@@ -524,6 +538,10 @@ PROJECTS
   transition: all 450ms ease;
 }
 
+.img-one {
+  max-height: 650px;
+}
+
 .project__wrapper {
   position: relative;
   border-radius: 20px;
@@ -549,6 +567,8 @@ PROJECTS
 
 .project__wrapper--bg {
   position: absolute;
+  display: flex;
+  justify-content: center;
   top: 0;
   left: 0;
   width: 100%;
@@ -560,17 +580,38 @@ PROJECTS
 .project__description {
   position: absolute;
   top: 50%;
-  left: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   opacity: 0;
   transform: translateY(100%);
   transition: opacity 300ms, transform 450ms ease;
   color: white;
-  max-width: 550px;
+  max-width: 600px;
   text-align: center;
 }
 
 .project__description--title {
-  font-size: 44px;
+  font-size: 50px;
+  color: white;
+}
+
+.title__hover--effect:after {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  top: 62px;
+  height: 3px;
+  width: 0;
+  right: 0;
+  background-color: white;;
+  transition: all 400ms ease;
+  border-radius: 50px;
+}
+
+.title__hover--effect:hover:after {
+  left: 0;
+  width: 100%;
 }
 
 .project__description--link {
@@ -581,12 +622,13 @@ PROJECTS
 
 .project__description--para {
   margin: 16px 0;
-  font-size: 20px;
+  font-size: 24px;
 }
 
 .project__description--sub-title {
   margin-top: 12px;
   color: #f06449;
+  font-size: 24px;
 }
 
 /* 
@@ -624,7 +666,6 @@ footer {
   color: white;
 }
 
-
 /* 
 
 SHAPES 
@@ -639,44 +680,43 @@ SHAPES
 
 .shape--0 {
   top: 15vh;
-  left: 5vw
+  left: 5vw;
 }
 .shape--1 {
   top: 15vh;
-  left: 50vw
+  left: 50vw;
 }
 
 .shape--2 {
   top: 15vh;
-  left: 80vw
+  left: 80vw;
 }
 .shape--3 {
   top: 50vh;
-  left: 5vw
+  left: 5vw;
 }
 .shape--4 {
   top: 50vh;
-  left: 50vw
+  left: 50vw;
 }
 .shape--5 {
   top: 50vh;
-  left: 80vw
+  left: 80vw;
 }
 .shape--6 {
   top: 80vh;
-  left: 5vw
+  left: 5vw;
 }
 
 .shape--7 {
   top: 80vh;
-  left: 50vw
+  left: 50vw;
 }
 
 .shape--8 {
   top: 80vh;
-  left: 80vw
+  left: 80vw;
 }
-
 
 /* Small Phones, tablets, large smart phones */
 

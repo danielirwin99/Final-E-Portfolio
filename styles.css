@@ -550,7 +550,6 @@ PROJECTS
   overflow: hidden;
   transition: all 500ms ease;
   margin-bottom: 150px;
-
 }
 .project__wrapper:hover .project__description {
   opacity: 1;
@@ -610,7 +609,25 @@ PROJECTS
   border-radius: 50px;
 }
 
+.title__hover--effectTwo:after {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  top: 80px;
+  height: 3px;
+  width: 0;
+  right: 0;
+  background-color: white;
+  transition: all 400ms ease;
+  border-radius: 50px;
+}
+
 .title__hover--effect:hover:after {
+  left: 0;
+  width: 100%;
+}
+
+.title__hover--effectTwo:hover:after {
   left: 0;
   width: 100%;
 }

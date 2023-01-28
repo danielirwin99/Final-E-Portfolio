@@ -192,7 +192,6 @@ header {
   opacity: 1;
   visibility: visible;
   transition: all 600ms 700ms;
- 
 }
 
 header {
@@ -208,7 +207,6 @@ header {
     opacity: 1;
   }
 }
-
 
 .modal--open nav,
 .modal--open .scroll,
@@ -284,8 +282,8 @@ header {
 }
 
 .mail__btn {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   font-size: 40px;
   border-radius: 50%;
   border: none;
@@ -535,7 +533,9 @@ PROJECTS
 
 .project__img {
   width: 100%;
+  height: 100%;
   transition: all 450ms ease;
+  object-fit: cover;
 }
 
 .img-one {
@@ -550,6 +550,7 @@ PROJECTS
   overflow: hidden;
   transition: all 500ms ease;
   margin-bottom: 150px;
+
 }
 .project__wrapper:hover .project__description {
   opacity: 1;
@@ -604,7 +605,7 @@ PROJECTS
   height: 3px;
   width: 0;
   right: 0;
-  background-color: white;;
+  background-color: white;
   transition: all 400ms ease;
   border-radius: 50px;
 }
@@ -616,7 +617,7 @@ PROJECTS
 
 .project__description--link {
   color: white;
-  font-size: 24px;
+  font-size: 30px;
   margin-right: 16px;
 }
 
@@ -629,6 +630,11 @@ PROJECTS
   margin-top: 12px;
   color: #f06449;
   font-size: 24px;
+}
+
+.title__two {
+  font-size: 60px;
+  margin-bottom: 20px;
 }
 
 /* 

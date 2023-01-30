@@ -558,7 +558,7 @@ PROJECTS
 
 .project__wrapper:hover .project__img {
   transform: scale(1.07);
-  filter: blur(5px);
+  filter: blur(8px);
 }
 
 .project__wrapper:hover .project__wrapper--bg {
@@ -587,7 +587,7 @@ PROJECTS
   transform: translateY(100%);
   transition: opacity 300ms, transform 450ms ease;
   color: white;
-  max-width: 600px;
+  max-width: 800px;
   text-align: center;
 }
 
@@ -634,7 +634,7 @@ PROJECTS
 
 .project__description--link {
   color: white;
-  font-size: 30px;
+  font-size: 40px;
   margin-right: 16px;
 }
 
@@ -645,7 +645,7 @@ PROJECTS
 
 .project__description--sub-title {
   margin-top: 12px;
-  color: #f06449;
+  color: #ff2a00;
   font-size: 24px;
 }
 
@@ -663,7 +663,7 @@ FOOTER
 footer {
   background-color: #242424;
   display: flex;
-  padding: 4% 0;
+  padding: 2% 0;
   position: relative;
 }
 
@@ -673,20 +673,21 @@ footer {
   align-items: center;
 }
 
-.footer__logo--img {
-  width: 70px;
-}
 
 .footer__social--list {
   width: 100%;
   display: flex;
   justify-content: space-around;
-  margin: 28px 0;
+  margin: 28px 0 40px 0;
 }
 
 .footer__social--link,
 .footer__copyright {
   color: white;
+}
+
+.footer__social--link {
+  font-size: 24px;
 }
 
 /* 

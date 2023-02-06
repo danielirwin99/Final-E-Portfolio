@@ -552,6 +552,7 @@ PROJECTS
 
 .bitcoin {
   object-fit: cover;
+  overflow-y: visible;
 }
 
 .project__wrapper {
@@ -777,6 +778,18 @@ SHAPES
   .modal__half {
     width: 100%;
     border-radius: 0;
+  }
+
+  .project__description--title {
+    font-size: 50px;
+  }
+
+  .project__description--sub-title {
+    margin-bottom: 20px;
+  }
+
+  .project__description--para {
+    display: none;
   }
 }
 

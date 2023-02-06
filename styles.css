@@ -557,7 +557,8 @@ PROJECTS
   width: 100%;
   overflow: hidden;
   transition: all 500ms ease;
-  margin-bottom: 150px;
+  margin-bottom: 115px;
+  z-index: 999;
 }
 .project__wrapper:hover .project__description {
   opacity: 1;

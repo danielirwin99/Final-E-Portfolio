@@ -550,6 +550,10 @@ PROJECTS
   padding: 10px;
 }
 
+.bitcoin {
+  object-fit: cover;
+}
+
 .project__wrapper {
   position: relative;
   border-radius: 20px;
@@ -681,7 +685,6 @@ footer {
   flex-direction: column;
   align-items: center;
 }
-
 
 .footer__social--list {
   width: 100%;

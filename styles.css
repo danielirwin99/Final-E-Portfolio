@@ -534,12 +534,20 @@ PROJECTS
 .project__img {
   width: 100%;
   height: 100%;
+  max-height: 500px;
   transition: all 450ms ease;
   object-fit: cover;
 }
 
 .img-one {
-  max-height: 650px;
+  max-height: 500px;
+  object-fit: contain;
+  padding: 10px;
+}
+
+.dashboard {
+  object-fit: contain;
+  padding: 10px;
 }
 
 .project__wrapper {
@@ -592,7 +600,7 @@ PROJECTS
 }
 
 .project__description--title {
-  font-size: 50px;
+  font-size: 40px;
   color: white;
 }
 
@@ -600,7 +608,7 @@ PROJECTS
   content: "";
   position: absolute;
   bottom: 0px;
-  top: 62px;
+  top: 55px;
   height: 3px;
   width: 0;
   right: 0;
@@ -613,7 +621,7 @@ PROJECTS
   content: "";
   position: absolute;
   bottom: 0px;
-  top: 80px;
+  top: 70px;
   height: 3px;
   width: 0;
   right: 0;
@@ -640,7 +648,7 @@ PROJECTS
 
 .project__description--para {
   margin: 16px 0;
-  font-size: 24px;
+  font-size: 22px;
 }
 
 .project__description--sub-title {
@@ -650,7 +658,7 @@ PROJECTS
 }
 
 .title__two {
-  font-size: 60px;
+  font-size: 50px;
   margin-bottom: 20px;
 }
 

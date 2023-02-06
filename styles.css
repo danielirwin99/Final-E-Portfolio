@@ -537,12 +537,14 @@ PROJECTS
   max-height: 500px;
   transition: all 450ms ease;
   object-fit: cover;
+  overflow: visible;
 }
 
 .img-one {
   max-height: 500px;
   object-fit: contain;
   padding: 10px;
+  overflow: visible;
 }
 
 .dashboard {

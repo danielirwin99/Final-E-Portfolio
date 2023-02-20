@@ -527,6 +527,11 @@ PROJECTS
 
 */
 
+.project {
+  margin-bottom: 100px;
+  padding-right: 20px;
+}
+
 .section__title {
   text-align: center;
   font-size: 48px;
@@ -564,9 +569,9 @@ PROJECTS
   border-radius: 20px;
   box-shadow: 0 20px 80px 0 rgb(0, 0, 0, 0.5);
   width: 100%;
+  height: 100%;
   overflow: hidden;
   transition: all 500ms ease;
-  margin-bottom: 115px;
   z-index: 999;
 }
 .project__wrapper:hover .project__description {
@@ -603,7 +608,7 @@ PROJECTS
   justify-content: center;
   opacity: 0;
   transform: translateY(100%);
-  transition: opacity 300ms, transform 450ms ease;
+  transition: opacity 300ms, transform 600ms ease;
   color: white;
   max-width: 800px;
   text-align: center;
@@ -757,6 +762,38 @@ SHAPES
 .shape--8 {
   top: 80vh;
   left: 80vw;
+}
+
+/* Small Screens */
+
+@media (max-width: 1200px) {
+  .project {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+  .project__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .project__description--title {
+    font-size: 30px;
+  }
+
+  .project__description--sub-title {
+    margin-bottom: 20px;
+  }
+  .project__description--para {
+    display: none;
+  }
+  .title__hover--effect:after {
+    margin-top: -16px;
+  }
+
+  .title__hover--effectTwo:after {
+    margin-top: -28px;
+  }
 }
 
 /* Small Phones, tablets, large smart phones */

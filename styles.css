@@ -500,6 +500,7 @@ MODAL
 
 .fa-spinner {
   animation: spinner 800ms infinite linear;
+  transform: translate(-50%);
 }
 
 @keyframes spinner {

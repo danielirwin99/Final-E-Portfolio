@@ -822,21 +822,29 @@ SHAPES
   }
 
   .project__description--title {
-    font-size: 50px;
+    font-size: 26px;
   }
 
   .project__description--sub-title {
     margin-bottom: 20px;
+    font-size: 16px;
   }
 
   .project__description--para {
     display: none;
+  }
+
+  .project__description--link {
+    font-size: 16px;
   }
 }
 
 /* Small Phones */
 
 @media (max-width: 480px) {
+  .project {
+    width: 100%;
+  }
   .title {
     font-size: 60px;
   }
@@ -862,6 +870,10 @@ SHAPES
 
   .project__description--sub-title {
     margin-bottom: 12px;
+  }
+
+  .modal {
+    margin-left: 10px;
   }
 
   .modal__half {

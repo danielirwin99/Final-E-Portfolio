@@ -396,7 +396,7 @@ MODAL
   flex-direction: column;
   align-items: center;
   transition: all 300ms ease;
-  margin-top: 20px;
+  margin-top: 5px;
 }
 
 .modal__language--img {
@@ -419,6 +419,7 @@ MODAL
 
 .modal__title {
   font-size: 30px;
+  margin-top: 10px;
 }
 
 .modal__sub-title {

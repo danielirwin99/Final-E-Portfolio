@@ -582,7 +582,7 @@ PROJECTS
 
 .project__wrapper:hover .project__img {
   transform: scale(1.07);
-  filter: blur(8px);
+  filter: blur(12px);
 }
 
 .project__wrapper:hover .project__wrapper--bg {
@@ -669,7 +669,7 @@ PROJECTS
 
 .project__description--sub-title {
   margin-top: 12px;
-  color: #ff2a00;
+  color: #0be4c7;
   font-size: 24px;
 }
 

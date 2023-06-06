@@ -227,16 +227,13 @@ header {
   transition: all 400ms;
 }
 
-.dark-theme .fa-envelope {
-  color: #242424;
-}
-
 .dark-theme .title,
 .dark-theme .section__title,
 .dark-theme .section__sub-title,
 .dark-theme .nav__link--anchor,
 .dark-theme .fa-file-pdf,
 .dark-theme .header__para,
+.dark-theme .social__link,
 .dark-theme .social__link,
 .dark-theme .stack {
   color: white;

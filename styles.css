@@ -326,6 +326,7 @@ header {
   content: "";
   background-color: #242424;
   width: 4px;
+  margin-left: 1px;
   height: 6px;
   border-radius: 2px;
   animation: scroll 1000ms infinite alternate-reverse;
@@ -745,6 +746,10 @@ footer {
 
 .footer__social--link {
   font-size: 24px;
+}
+
+.footer__social--link:hover {
+  color: #0be4c7;
 }
 
 /* 

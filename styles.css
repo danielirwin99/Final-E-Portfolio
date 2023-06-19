@@ -538,9 +538,9 @@ LANGUAGE STACK
 }
 
 .stack__language {
-  width: 12%;
+  width: 8%;
   margin: 28px 24px;
-  padding: 10px;
+  padding: 8px;
   position: relative;
   display: flex;
   flex-direction: column;

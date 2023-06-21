@@ -9,6 +9,8 @@ html {
   scroll-behavior: smooth;
 }
 
+
+
 /* width */
 ::-webkit-scrollbar {
   width: 10px;
@@ -581,6 +583,7 @@ PROJECTS
   transition: all 450ms ease;
   object-fit: cover;
   overflow: visible;
+  display: block;
 }
 
 .img-one {
@@ -681,15 +684,12 @@ PROJECTS
   border-radius: 50px;
 }
 
-.title__hover--effect:hover:after {
-  left: 0;
-  width: 100%;
-}
-
+.title__hover--effect:hover:after,
 .title__hover--effectTwo:hover:after {
   left: 0;
   width: 100%;
 }
+
 
 .project__description--link {
   color: white;
@@ -929,4 +929,9 @@ SHAPES
   .modal__half {
     padding: 40px;
   }
+}
+
+.max {
+  height: 100%;
+  width: 100%;
 }

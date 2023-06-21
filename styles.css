@@ -40,6 +40,7 @@ li {
   max-width: 1100px;
   margin: 0 auto;
   padding: 0 12px;
+  
 }
 
 section {
@@ -568,6 +569,8 @@ PROJECTS
 .project {
   margin-bottom: 100px;
   padding-right: 20px;
+  z-index: 50;
+
 }
 
 .section__title {
@@ -584,6 +587,7 @@ PROJECTS
   object-fit: cover;
   overflow: visible;
   display: block;
+
 }
 
 .img-one {
@@ -611,20 +615,22 @@ PROJECTS
   height: 100%;
   overflow: hidden;
   transition: all 500ms ease;
-  z-index: 998;
 }
 .project__wrapper:hover .project__description {
   opacity: 1;
   transform: translateY(-50%);
+  
 }
 
 .project__wrapper:hover .project__img {
   transform: scale(1.07);
   filter: blur(12px);
+  
 }
 
 .project__wrapper:hover .project__wrapper--bg {
   opacity: 0.7;
+  
 }
 
 .project__wrapper--bg {
@@ -637,6 +643,7 @@ PROJECTS
   height: 100%;
   background-color: #1c1d25;
   opacity: 0;
+
 }
 
 .project__description {
@@ -762,6 +769,7 @@ SHAPES
   position: fixed;
   height: 20px;
   opacity: 0.8;
+  z-index: 5;
 }
 
 .shape--0 {
